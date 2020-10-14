@@ -31,8 +31,8 @@ In our `src/data.js` file, we see that the `messages` array takes this shape:
 [
   {
     user: users.elaine,
-    body: 'How about you bring me back something?',
-    timestamp: '11:38',
+    body: "How about you bring me back something?",
+    timestamp: "11:38",
   },
   /* ...lots more like this */
 ];

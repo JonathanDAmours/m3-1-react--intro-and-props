@@ -9,12 +9,12 @@ Create two new files, `src/ChatMessage.js` and `src/ChatMessage.css`. Write the 
 > **✋ Please do NOT copy/paste!** You'll write _a lot_ of new components over this module. It's worth taking the time to get used to writing them out.
 
 ```js
-import React from 'react';
+import React from "react";
 
-import './ChatMessage.css';
+import "./ChatMessage.css";
 
 const ChatMessage = (props) => {
-  return <div className='chat-message'></div>;
+  return <div className="chat-message"></div>;
 };
 
 export default ChatMessage;

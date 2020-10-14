@@ -9,4 +9,61 @@
 */
 .chat-stream {
   flex: 1;
+  padding-top: 20px;
+}
+
+.userSection {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.userPic {
+  margin: 0;
+  padding: 0;
+}
+
+.username {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.messageBody {
+  background-color: #e9e9eb;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 5px 0 0 0;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin: 20px 10px 0px 20px;
+}
+
+.mymessageBody {
+  background-color: #1185f7;
+  color: white;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 5px 0 0 0;
+}
+
+.myuserInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.myuserSection {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }

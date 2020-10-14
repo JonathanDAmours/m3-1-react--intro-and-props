@@ -1,16 +1,21 @@
-import React from 'react';
+import React from "react";
+import Header from "./Header";
+import ChatStream from "./ChatStream";
+import Footer from "./Footer";
 
-import Header from './Header';
-import ChatStream from './ChatStream';
-import Footer from './Footer';
-
-import './App.css';
+import "./App.css";
 
 const App = (props) => {
   return (
-    <div className='wrapper'>
-      <Header />
-      <ChatStream />
+    <div className="wrapper">
+      <Header
+        users={props.conversation.participants}
+        currentUser={props.currentUser}
+      />
+      <ChatStream
+        messages={props.conversation.messages}
+        currentUser={props.currentUser}
+      />
       <Footer />
     </div>
   );

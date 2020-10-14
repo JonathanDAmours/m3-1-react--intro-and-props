@@ -38,14 +38,15 @@ There are multiple ways to do this, but IMO the simplest is to create two separa
 
 Here's our new `ChatMessage` component:
 
-```jsx
+``jsx
 const ChatMessage = (props) => {
-  if (props.messageType === 'sent') {
-    return <SentMessage message={props.message} />;
-  } else {
-    return <ReceivedMessage message={props.message} />;
-  }
+if (props.messageType === 'sent') {
+return <SentMessage message={props.message} />;
+} else {
+return <ReceivedMessage message={props.message} />;
+}
 };
+
 ```
 
 This component doesn't really define any UI of its own; instead, it delegates to two new components, `SentMessage` and `ReceivedMessage`.
@@ -55,3 +56,4 @@ These components don't exist yet, so we need to create them. Feel free to create
 The rest of this problem is left as an exercise for you to solve. You should wind up with UI that looks approximately like this:
 
 ![sent/received styles](/__lecture/assets/exercise-3-result.png)
+```
